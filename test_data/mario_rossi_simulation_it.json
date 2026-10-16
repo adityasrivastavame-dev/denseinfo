@@ -1,0 +1,51 @@
+{
+    "patient_name": "Mario Rossi",
+    "surgery_type": "Artroprotesi di ginocchio",
+    "post_op_day_current": 4,
+    "daily_logs": [
+        {
+            "day": 1,
+            "patient_answers": {
+                "Su una scala da 1 a 10, quanto dolore prova oggi?": "3",
+                "Il polpaccio o la caviglia sono più gonfi rispetto a ieri?": "No",
+                "Noti arrossamento, calore o secrezioni intorno alla ferita chirurgica?": "No",
+                "Ha avuto brividi o febbre sopra i 38°C?": "No"
+            },
+            "ai_summary": "Il paziente segnala dolore lieve (3/10) ben controllato. Nessun segno di gonfiore o infezione alla ferita chirurgica.",
+            "priority_flag": "ROUTINE"
+        },
+        {
+            "day": 2,
+            "patient_answers": {
+                "Su una scala da 1 a 10, quanto dolore prova oggi?": "4",
+                "Il polpaccio o la caviglia sono più gonfi rispetto a ieri?": "Leggermente, ma normale",
+                "Noti arrossamento, calore o secrezioni intorno alla ferita chirurgica?": "No",
+                "Ha avuto brividi o febbre sopra i 38°C?": "No"
+            },
+            "ai_summary": "Il paziente riporta un dolore moderato (4/10) e un lieve gonfiore fisiologico. Assenza di febbre o segni di infezione.",
+            "priority_flag": "ROUTINE"
+        },
+        {
+            "day": 3,
+            "patient_answers": {
+                "Su una scala da 1 a 10, quanto dolore prova oggi?": "6",
+                "Il polpaccio o la caviglia sono più gonfi rispetto a ieri?": "Sì",
+                "Noti arrossamento, calore o secrezioni intorno alla ferita chirurgica?": "Leggero rossore",
+                "Ha avuto brividi o febbre sopra i 38°C?": "No"
+            },
+            "ai_summary": "Il paziente segnala un aumento del dolore (6/10) accompagnato da gonfiore e leggero eritema perilesionale. Parametri vitali nella norma.",
+            "priority_flag": "ROUTINE"
+        },
+        {
+            "day": 4,
+            "patient_answers": {
+                "Su una scala da 1 a 10, quanto dolore prova oggi?": "8",
+                "Il polpaccio o la caviglia sono più gonfi rispetto a ieri?": "Sì, molto gonfio e rigido",
+                "Noti arrossamento, calore o secrezioni intorno alla ferita chirurgica?": "Sì, la ferita è molto rossa e secerne liquido",
+                "Ha avuto brividi o febbre sopra i 38°C?": "Sì, 38.4°C"
+            },
+            "ai_summary": "Il paziente riporta dolore acuto (8/10), gonfiore severo, secrezioni dalla ferita e stato febbrile (38.4°C). Sospetta infezione del sito chirurgico.",
+            "priority_flag": "HIGH_RISK_HUMAN_TAKEOVER"
+        }
+    ]
+}
