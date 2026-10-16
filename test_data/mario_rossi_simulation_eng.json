@@ -1,0 +1,51 @@
+{
+    "patient_name": "Mario Rossi",
+    "surgery_type": "Knee Replacement",
+    "post_op_day_current": 4,
+    "daily_logs": [
+        {
+            "day": 1,
+            "patient_answers": {
+                "On a scale from 1 to 10, how much pain are you in today?": "3",
+                "Is your calf or ankle more swollen than yesterday?": "No",
+                "Do you notice redness, heat, or discharge around the surgical wound?": "No",
+                "Have you had chills or a fever above 38°C (100.4°F)?": "No"
+            },
+            "ai_summary": "The patient reports mild pain (3/10) that is well controlled. No signs of swelling or infection at the surgical wound.",
+            "priority_flag": "ROUTINE"
+        },
+        {
+            "day": 2,
+            "patient_answers": {
+                "On a scale from 1 to 10, how much pain are you in today?": "4",
+                "Is your calf or ankle more swollen than yesterday?": "Slightly, but normal",
+                "Do you notice redness, heat, or discharge around the surgical wound?": "No",
+                "Have you had chills or a fever above 38°C (100.4°F)?": "No"
+            },
+            "ai_summary": "The patient reports moderate pain (4/10) and mild physiological swelling. Absence of fever or signs of infection.",
+            "priority_flag": "ROUTINE"
+        },
+        {
+            "day": 3,
+            "patient_answers": {
+                "On a scale from 1 to 10, how much pain are you in today?": "6",
+                "Is your calf or ankle more swollen than yesterday?": "Yes",
+                "Do you notice redness, heat, or discharge around the surgical wound?": "Slight redness",
+                "Have you had chills or a fever above 38°C (100.4°F)?": "No"
+            },
+            "ai_summary": "The patient reports an increase in pain (6/10) accompanied by swelling and slight peri-wound erythema. Vital signs are within normal limits.",
+            "priority_flag": "ROUTINE"
+        },
+        {
+            "day": 4,
+            "patient_answers": {
+                "On a scale from 1 to 10, how much pain are you in today?": "8",
+                "Is your calf or ankle more swollen than yesterday?": "Yes, very swollen and stiff",
+                "Do you notice redness, heat, or discharge around the surgical wound?": "Yes, the wound is very red and leaking fluid",
+                "Have you had chills or a fever above 38°C (100.4°F)?": "Yes, 38.4°C (101.1°F)"
+            },
+            "ai_summary": "The patient reports acute pain (8/10), severe swelling, wound discharge, and a feverish state (38.4°C / 101.1°F). Suspected surgical site infection.",
+            "priority_flag": "HIGH_RISK_HUMAN_TAKEOVER"
+        }
+    ]
+}
